@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js Library -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Patient Dashboard</h1>
+        </header>
+        <main>
+            <section class="patient-info">
+                <h2>Patient Information</h2>
+                <p><strong>Name:</strong> <span id="patient-name">Loading...</span></p>
+                <p><strong>Age:</strong> <span id="patient-age">Loading...</span></p>
+            </section>
+            <section class="chart-section">
+                <h2>Blood Pressure Chart</h2>
+                <canvas id="bloodPressureChart"></canvas>
+            </section>
+        </main>
+    </div>
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/chart.js"></script>
+    
+</body>
+</html>
